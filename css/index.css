@@ -1,0 +1,48 @@
+
+html{
+    /* root's font size will influence rem's behavior */
+    /* font-size: 48px; */
+}
+
+/* this is for em and rem demo */
+.container1{
+    background-color: yellow;
+    font-size: 1em;
+    /* parent's font size will influence child's behavior (em) */
+    /* font-size: 24px; */
+}
+
+#box1{
+    background-color: cornflowerblue;
+    margin-top: 30px;
+    margin-left: 2em;
+}
+
+#box2{
+    background-color: hotpink;
+    margin-top: 30px;
+    margin-left:2rem;
+    padding-bottom: 10%;
+}
+
+.container2{
+    background-color: khaki;
+}
+
+#ch-demo{
+    background-color: lightskyblue;
+    font-family: 'Courier New', Courier, monospace;
+    width: 20ch;
+}
+
+#ch-demo-2{
+    background-color: lightgreen;
+    width: 20ch;
+}
+
+.container3{
+    background-color: limegreen;
+    height: 20vmax;
+    width: 50vw;
+}
+
